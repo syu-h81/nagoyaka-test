@@ -1,1 +1,83 @@
 @use "../global" as g;
+.footer {
+  background-color: g.$color-heading;
+  &-inner {
+    padding: 85px 140px 65px 140px;
+  }
+  &-nav {
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__item {
+      color: g.$white;
+      a {
+        font-weight: 700;
+        letter-spacing: 0.08em;
+      }
+    }
+    span {
+      color: g.$white;
+      display: inline-block;
+      margin: 0 25px;
+    }
+  }
+  &-info {
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 70px;
+    }
+    &-logo {
+      &__address {
+        color: g.$white;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        line-height: 27.6px;
+        padding-top: 30px;
+      }
+    }
+    &-body {
+      &__phoneNumber {
+        background-color: g.$white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 25px;
+        &__img {
+          max-width: 40px;
+          height: auto;
+        }
+        &__text {
+          letter-spacing: 0.1em;
+          p {
+            line-height: 30px;
+            margin-left: 30px;
+            &:first-child {
+              font-weight: bold;
+            }
+            &:last-child {
+              font-size: 0.75rem;
+            }
+            span {
+              color: g.$color-btn;
+              font-family: "Poppins", serif;
+              font-size: 30px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-copyright {
+    color: g.$white;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 70px;
+  }
+}

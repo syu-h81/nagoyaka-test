@@ -1,0 +1,19 @@
+@use "../../global" as g;
+.c-email-btn {
+  width: 215px;
+  background-color: g.$color-btn;
+  border-radius: 10px;
+  color: g.$white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin-top: 20px;
+  &-img {
+    margin-top: -4px;
+  }
+  &-text {
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+}
