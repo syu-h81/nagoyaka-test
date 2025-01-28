@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! destyle.css v4.0.1 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -677,6 +678,23 @@ img {
 .c-banner-contact-block-body__phoneNumber__desc {
   font-size: 1.25rem;
   letter-spacing: 1.6px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.c-banner-contact-block-body__phoneNumber__desc::before, .c-banner-contact-block-body__phoneNumber__desc::after {
+  background-color: #2E2E2E;
+  content: "";
+  height: 1px; /* 線の高さ */
+  width: 20px; /* 線の長さ */
+}
+.c-banner-contact-block-body__phoneNumber__desc::before {
+  margin-right: 5px; /* 文字との余白 */
+  transform: rotate(60deg); /* 傾ける */
+}
+.c-banner-contact-block-body__phoneNumber__desc::after {
+  margin-left: 5px; /* 文字との余白 */
+  transform: rotate(-60deg); /* 傾ける */
 }
 .c-banner-contact-block-body__phoneNumber__number {
   color: #E37940;
@@ -741,6 +759,21 @@ img {
   background-repeat: no-repeat;
   border-radius: 20px;
   padding: 50px 35px;
+  position: relative;
+}
+.p-money-cards-card::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  background-image: url(../images/money-light-icon-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 23px;
+  height: 28px;
+}
+.p-money-cards-card:last-child::after {
+  background-image: url(../images/money-light-icon-2.png);
 }
 .p-money-cards-card__heading {
   color: #338751;

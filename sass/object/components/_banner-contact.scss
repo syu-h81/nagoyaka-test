@@ -41,6 +41,24 @@
         &__desc {
           font-size: 1.25rem;
           letter-spacing: 1.6px;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          &::before,
+          &::after {
+            background-color: g.$color-text;
+            content: "";
+            height: 1px; /* 線の高さ */
+            width: 20px; /* 線の長さ */
+          }
+          &::before {
+            margin-right: 5px; /* 文字との余白 */
+            transform: rotate(60deg); /* 傾ける */
+          }
+          &::after {
+            margin-left: 5px; /* 文字との余白 */
+            transform: rotate(-60deg); /* 傾ける */
+          }
         }
         &__number {
           color: g.$color-btn;

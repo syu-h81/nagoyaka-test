@@ -28,6 +28,23 @@
       background-repeat: no-repeat;
       border-radius: 20px;
       padding: 50px 35px;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        background-image: url(../images/money-light-icon-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23px;
+        height: 28px;
+      }
+      &:last-child {
+        &::after {
+          background-image: url(../images/money-light-icon-2.png);
+        }
+      }
       &__heading {
         color: g.$color-heading;
         font-size: 1.5rem;
