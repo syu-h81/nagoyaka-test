@@ -22,7 +22,7 @@
 <body class="l-body">
   <div class="l-wrapper">
     <!-- ===== header ===== -->
-    <header class="header l-section">
+    <header class="header">
       <div class="header-inner l-inner">
         <div class="header-logo">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/header-logo.png" alt="">

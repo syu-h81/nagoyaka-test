@@ -1,5 +1,5 @@
 <!-- ===== footer ===== -->
-<footer class="footer l-section">
+<footer class="footer">
   <div class="footer-inner l-inner">
     <nav class="footer-nav">
       <ul class="footer-nav__list">
