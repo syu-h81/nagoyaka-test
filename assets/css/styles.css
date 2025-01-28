@@ -456,6 +456,7 @@ img {
   margin: 0 25px;
 }
 .footer-info__inner {
+  max-width: 1160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -474,7 +475,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 22px 25px;
+  padding: 20px;
 }
 .footer-info-body__phoneNumber__img {
   max-width: 40px;
