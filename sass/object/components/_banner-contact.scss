@@ -2,9 +2,11 @@
 .c-banner-contact {
   &-inner {
     padding: 0 150px;
+    padding-top: 150px;
   }
   &-block {
     max-width: 1160px;
+    margin: 0 auto;
     &__img {
       width: 150px;
       background-color: #DFEDD0;

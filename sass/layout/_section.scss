@@ -1,4 +1,5 @@
 @use "../global" as g;
 .l-section {
+  background-color: g.$color-primary;
   margin: 0 auto;
 }

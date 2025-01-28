@@ -404,11 +404,13 @@ img {
   max-width: 1300px;
   width: 85%;
   padding-top: 20px;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
 }
 .header-inner {
   background-color: #fff;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -508,7 +510,12 @@ img {
   padding-top: 70px;
 }
 
+.l-main {
+  padding-top: 150px;
+}
+
 .l-section {
+  background-color: #DFEDD0;
   margin: 0 auto;
 }
 
@@ -615,9 +622,11 @@ img {
 
 .c-banner-contact-inner {
   padding: 0 150px;
+  padding-top: 150px;
 }
 .c-banner-contact-block {
   max-width: 1160px;
+  margin: 0 auto;
 }
 .c-banner-contact-block__img {
   width: 150px;
@@ -665,4 +674,64 @@ img {
 .c-banner-contact-block-body__email {
   margin: 0 auto;
   margin-top: 35px;
+}
+
+.p-money__inner {
+  padding: 65px 140px 100px 140px;
+}
+.p-money-desc {
+  font-weight: bold;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.p-money-cards {
+  background-color: #F5F4EA;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 35px;
+  padding: 35px;
+}
+.p-money-cards-card {
+  width: 530px;
+  height: 480px;
+  background-image: url(../images/money-card-bg.png);
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 50px 35px;
+}
+.p-money-cards-card__heading {
+  color: #338751;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.p-money-cards-card__content__box {
+  padding-top: 35px;
+}
+.p-money-cards-card__content__heading {
+  font-weight: bold;
+}
+.p-money-cards-card__content__textBox {
+  padding-top: 20px;
+  letter-spacing: 2px;
+  line-height: 33px;
+}
+.p-money-caution {
+  padding-top: 35px;
+}
+.p-money-caution__heading {
+  font-size: 0.875em;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.p-money-caution p {
+  font-size: 0.875em;
+  letter-spacing: 1.5px;
+  line-height: 29.4px;
+  margin-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
