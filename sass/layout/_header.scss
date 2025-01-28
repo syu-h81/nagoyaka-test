@@ -3,10 +3,12 @@
   max-width: 1300px;
   width: 85%;
   padding-top: 20px;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
   &-inner {
     background-color: #fff;
+    border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
