@@ -435,9 +435,10 @@ img {
 }
 
 .footer {
-  background-color: #338751;
+  padding-top: 150px;
 }
 .footer-inner {
+  background-color: #338751;
   padding: 85px 140px 65px 140px;
 }
 .footer-nav__list {

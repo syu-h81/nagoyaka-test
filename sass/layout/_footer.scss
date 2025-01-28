@@ -1,7 +1,8 @@
 @use "../global" as g;
 .footer {
-  background-color: g.$color-heading;
+  padding-top: 150px;
   &-inner {
+    background-color: g.$color-heading;
     padding: 85px 140px 65px 140px;
   }
   &-nav {
