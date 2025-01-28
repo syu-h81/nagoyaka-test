@@ -1,6 +1,10 @@
 @use "../global" as g;
 .header {
   max-width: 1300px;
+  width: 85%;
+  padding-top: 20px;
+  position: relative;
+  z-index: 1;
   &-inner {
     background-color: #fff;
     display: flex;

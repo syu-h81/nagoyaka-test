@@ -1,0 +1,86 @@
+@use "../../global" as g;
+.c-page {
+  &-head {
+    width: 100%;
+    //background-color: g.$color-primary;
+    margin-top: -40px;
+    text-align: center;
+    &-inner {
+      height: 475px;
+      background-image: url(../images/head-bg.png);
+      //background-color: rgba(255, 255, 255, 0.4);
+      background-color: g.$color-primary;
+      background-blend-mode:lighten;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 50px;
+    }
+    &__heading {
+      color: g.$color-heading;
+      font-size: 2.6875em;
+      font-weight: bold;
+      &__text {
+        color: g.$color-heading;
+        font-weight: bold;
+        margin-left: 8px;
+        &__block {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 35px;
+        }
+        &__img {
+          width: 12px;
+          margin-top: -6px;
+        }
+      }
+    }
+  }
+  &-contact {
+    &-inner {
+      max-width: 260px;
+      margin-left: auto;
+      margin-top: -70px;
+    }
+    &__img {
+      width: 60px;
+      height: auto;
+      margin: 0 auto;
+      margin-bottom: -30px;
+      background: g.$color-btn;
+      border-radius: 50%;
+      padding: 15px 20px;
+      position: relative;
+      z-index: 1;
+    }
+    &__body {
+      color: g.$white;
+      background-color: g.$color-btn;
+      border-radius: 20px;
+      padding: 4px;
+      margin-right: 20px;
+      text-align: center;
+      p {
+        border: 1px solid g.$white;
+        border-radius: 20px;
+        padding: 20px 0;
+        padding-top: 25px;
+      }
+      &__text {
+        &:first-child {
+          font-family: "Poppins", serif;
+          font-size: 22px;
+          font-weight: 600;
+        }
+        &:last-child {
+          font-size: 0.75rem;
+        }
+      }
+    }
+  }
+}

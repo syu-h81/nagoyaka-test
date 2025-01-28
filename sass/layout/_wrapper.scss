@@ -1,6 +1,7 @@
 @use "../global" as g;
 .l-wrapper {
   width: 100%;
+  background-color: g.$color-bg;
   img {
     width: 100%;
   }
