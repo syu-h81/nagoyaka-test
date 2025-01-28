@@ -1,0 +1,22 @@
+@use "../../global" as g;
+.c-required {
+  background-color: g.$white;
+  border-radius: 3px;
+  padding: 5px;
+  &-text {
+    color: g.$color-btn;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+  }
+}
+
+.c-option {
+  background-color: g.$white;
+  border-radius: 3px;
+  padding: 5px;
+  &-text {
+    color: g.$color-heading;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+  }
+}

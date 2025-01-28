@@ -392,6 +392,11 @@ img {
   vertical-align: bottom;
 }
 
+.l-body {
+  color: #2E2E2E;
+  font-family: "Yu Gothic", "YuGothic", sans-serif;
+}
+
 .l-wrapper {
   width: 100%;
   background-color: #F5F4EA;
@@ -518,10 +523,19 @@ img {
 .l-section {
   background-color: #DFEDD0;
   margin: 0 auto;
+  margin-top: 150px;
 }
 
 .l-inner {
   margin: 0 auto;
+}
+
+.c-heading {
+  font-size: 2.25em;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .c-page-head {
@@ -677,6 +691,28 @@ img {
   margin-top: 35px;
 }
 
+.c-required {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  padding: 5px;
+}
+.c-required-text {
+  color: #E37940;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+}
+
+.c-option {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  padding: 5px;
+}
+.c-option-text {
+  color: #338751;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+}
+
 .p-money__inner {
   padding: 65px 140px 100px 140px;
 }
@@ -735,4 +771,163 @@ img {
   letter-spacing: 1.5px;
   line-height: 29.4px;
   margin-top: 20px;
+}
+
+.p-contact-body-inner {
+  max-width: 565px;
+  margin: 0 auto;
+}
+.p-contact-body__heading {
+  color: #338751;
+  font-size: 1.5rem;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.p-contact-body__phoneNumber {
+  background-color: #FFFFFF;
+  border: 2px solid #338751;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  margin-top: 35px;
+}
+.p-contact-body__phoneNumber__img {
+  max-width: 30px;
+  height: auto;
+}
+.p-contact-body__phoneNumber__text {
+  letter-spacing: 0.1em;
+}
+.p-contact-body__phoneNumber__text p {
+  line-height: 30px;
+  margin-left: 30px;
+}
+.p-contact-body__phoneNumber__text p:first-child {
+  font-weight: bold;
+}
+.p-contact-body__phoneNumber__text p:last-child {
+  font-size: 0.875rem;
+  text-align: center;
+}
+.p-contact-body__phoneNumber__text p span {
+  color: #E37940;
+  font-family: "Poppins", serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+.p-contact-body__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 40px;
+}
+.p-contact-body__content__textBox__heading {
+  font-weight: bold;
+}
+.p-contact-body__content__textBox p {
+  font-size: 0.75rem;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+}
+.p-contact .p-contact__inner {
+  padding: 65px 140px 150px;
+}
+.p-contact .p-contact__bubble {
+  position: relative;
+  margin: 1.5em 0;
+  padding: 12px 30px;
+  max-width: 320px;
+  margin: 0 auto;
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.p-contact .p-contact__bubble::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 10px solid transparent;
+  border-top: 15px solid #FFFFFF;
+}
+.p-contact .p-contact__bubble p {
+  margin: 0;
+  padding: 0;
+}
+.p-contact .p-contact__heading__desc {
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 35px;
+}
+.p-contact .p-contact-form {
+  background-color: #F5F4EA;
+  border-radius: 20px;
+  margin-top: 45px;
+  padding: 50px;
+  padding-bottom: 65px;
+}
+.p-contact .p-contact-form__form__body {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  border-top: 1px solid rgba(46, 46, 46, 0.2);
+}
+.p-contact .p-contact-form__form__body__label {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.p-contact .p-contact-form__form__body__label label {
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+.p-contact .p-contact-form__form__body__input {
+  width: 100%;
+}
+.p-contact .p-contact-form__form__body__input input,
+.p-contact .p-contact-form__form__body__input textarea {
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(46, 46, 46, 0.2);
+  border-radius: 3px;
+  height: 35px;
+  padding-left: 10px;
+}
+.p-contact .p-contact-form__form__body__input textarea {
+  height: 165px;
+  padding: 10px;
+}
+.p-contact .p-contact-form__form__body__input span {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+.p-contact .p-contact-form__form__body__submit {
+  width: 214px;
+  height: 45px;
+  background-color: #E37940;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+.p-contact .p-contact-form__form__body__submit__btn {
+  color: #FFFFFF;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.u-border-bottom {
+  border-bottom: 1px solid rgba(46, 46, 46, 0.2);
 }/*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,5 @@
+@use "../global" as g;
 .l-body {
-  font-family: "Zen Kaku Gothic New", serif;
+  color: g.$color-text;
+  font-family: "Yu Gothic", "YuGothic", sans-serif;
 }

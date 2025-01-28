@@ -1,0 +1,167 @@
+@use "../../global" as g;
+.p-contact {
+  &-body {
+    &-inner {
+      max-width: 565px;
+      margin: 0 auto;
+    }
+    &__heading {
+      color: g.$color-heading;
+      font-size: 1.5rem;
+      letter-spacing: 0.03em;
+      text-align: center;
+    }
+    &__phoneNumber {
+      background-color: g.$white;
+      border: 2px solid g.$color-heading;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 40px;
+      margin-top: 35px;
+      &__img {
+        max-width: 30px;
+        height: auto;
+      }
+      &__text {
+        letter-spacing: 0.1em;
+        p {
+          line-height: 30px;
+          margin-left: 30px;
+          &:first-child {
+            font-weight: bold;
+          }
+          &:last-child {
+            font-size: 0.875rem;
+            text-align: center;
+          }
+          span {
+            color: g.$color-btn;
+            font-family: "Poppins", serif;
+            font-size: 30px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 40px;
+      &__textBox {
+        &__heading {
+          font-weight: bold;
+        }
+        p {
+          font-size: 0.75rem;
+          line-height: 30px;
+          letter-spacing: 1.5px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .p-contact {
+    &__inner {
+      padding: 65px 140px 150px;
+    }
+    &__bubble {
+      position: relative;
+      margin: 1.5em 0;
+      padding: 12px 30px;
+      max-width: 320px;
+      margin: 0 auto;
+      font-size: 0.75em;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      text-align: center;
+      background: g.$white;
+      border-radius: 20px;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -15px;
+        border: 10px solid transparent;
+        border-top: 15px solid g.$white;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+    &__heading {
+      &__desc {
+        font-weight: bold;
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-top: 35px;
+      }
+    }
+    &-form {
+      background-color: g.$color-bg;
+      border-radius: 20px;
+      margin-top: 45px;
+      padding: 50px;
+      padding-bottom: 65px;
+      &__form {
+        &__body {
+          display: flex;
+          align-items: center;
+          padding: 30px 0;
+          border-top: 1px solid rgba(46, 46, 46, 0.2);
+          &__label {
+            width: 500px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            label {
+              font-weight: bold;
+              letter-spacing: 0.03em;
+            }
+          }
+          &__input {
+            width: 100%;
+            input,
+            textarea {
+              width: 100%;
+              background-color: g.$white;
+              border: 1px solid rgba(46, 46, 46, 0.2);
+              border-radius: 3px;
+              height: 35px;
+              padding-left: 10px;
+            }
+            textarea {
+              height: 165px;
+              padding: 10px;
+            }
+            span {
+              display: block;
+              font-size: 0.75rem;
+              margin-top: 10px;
+            }
+          }
+          &__submit {
+            width: 214px;
+            height: 45px;
+            background-color: g.$color-btn;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 75px;
+            &__btn {
+              color: g.$white;
+              font-weight: bold;
+              letter-spacing: 0.1em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
