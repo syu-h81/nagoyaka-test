@@ -1,0 +1,236 @@
+@use "../../global" as g;
+
+.p-about {
+  &-concept {
+    &__inner {
+      max-width: 1160px;
+    }
+    &-body {
+      display: flex;
+      justify-content: space-between;
+      &__heading {
+        &__text {
+          line-height: 33.6px;
+          margin-top: 35px;
+          &__block {
+            justify-content: flex-start;
+          }
+        }
+        h2 {
+          text-align: justify;
+        }
+      }
+    }
+    &-radius {
+      &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding-top: 60px;
+      }
+      &__img {
+        width: 170px;
+        height: 170px;
+        background-color: g.$color-primary;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: auto;
+        }
+      }
+      &__text {
+        font-size: 0.75em;
+        font-weight: bold;
+        line-height: 21px;
+        margin-top: 20px;
+        text-align: center;
+        span {
+          color: g.$color-heading;
+        }
+      }
+    }
+    &-supplyment {
+      line-height: 33.6px;
+      margin-top: 70px;
+    }
+    &-btn {
+      width: 215px;
+      height: 45px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      &:first-child {
+        background-color: g.$white;
+        border: 2px solid g.$color-btn;
+        color: g.$color-btn;
+      }
+      &:last-child {
+        background-color: g.$color-btn;
+        color: g.$white;
+      }
+      &__text {
+        font-weight: bold;
+        letter-spacing: 0.1em;
+      }
+      &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 70px;
+      }
+    }
+  }
+  &-head {
+    padding: 0 50px;
+    padding-top: 150px;
+  }
+  &-point {
+    &__inner {
+      padding-top: 150px;
+    }
+    &-section {
+      background-color: g.$color-primary;
+      border-radius: 20px;
+      padding: 35px;
+      position: relative;
+      &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        row-gap: 60px;
+        padding-top: 120px;
+      }
+      &__glasses__img {
+        position: absolute;
+        top: -25px;
+        left: -25px;
+      }
+      &__img {
+        border-radius: 20px;
+      }
+      &__heading {
+        margin-top: 35px;
+        text-align: center;
+      }
+      &__text {
+        font-weight: bold;
+        line-height: 33.6px;
+        margin-top: 35px;
+      }
+    }
+  }
+  &-doctor {
+    &__inner {
+      padding: 65px 50px 50px 50px;
+    }
+    &__block {
+      background-color: g.$color-bg;
+      border-radius: 20px;
+      padding: 50px;
+    }
+    &__heading {
+      &__desc {
+        font-weight: bold;
+        line-height: 33.6px;
+        text-align: center;
+        margin-top: 35px;
+      }
+    }
+    &-profile {
+      padding-top: 70px;
+      &__flex {
+        display: flex;
+        justify-content: space-between;
+      }
+      &__explain {
+        &__heading {
+          span {
+            color: g.$color-heading;
+            font-size: 0.75em;
+            letter-spacing: 0.03em;
+          }
+          h3 {
+            margin-top: 20px;
+          }
+          &__text {
+            letter-spacing: 0.03em;
+            line-height: 33.6px;
+            margin-top: 35px;
+          }
+        }
+      }
+      &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 54px;
+      }
+      &__career {
+        padding-top: 54px;
+        &__flex {
+          display: flex;
+          justify-content: space-between;
+        }
+        &__list {
+          background-color: g.$white;
+          border-radius: 20px;
+          padding: 35px;
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            top: -15px;
+            left: 35%;
+            background-image: url(../images/clip.png);
+            background-size: cover;
+            width: 130px;
+            height: 47px;
+          }
+          &__inner {
+            background-color: g.$color-primary;
+            border-radius: 20px;
+            padding: 35px;
+          }
+          &__heading {
+            color: g.$color-heading;
+            font-size: 0.75em;
+            font-weight: bold;
+          }
+          &__name {
+            width: 366px;
+            border-bottom: 1px dashed g.$color-primary;
+            font-size: 0.875em;
+            font-weight: bold;
+            padding: 15px 0;
+            &:nth-child(7),
+            &:nth-child(9),
+            &:last-child {
+              margin-top: 35px;
+            }
+
+          }
+          &__subList {
+            &__name {
+              border-top: 1px dashed g.$color-primary;
+              font-weight: normal;
+              padding-top: 15px;
+              margin-top: 15px;
+            }
+          }
+        }
+        &__text {
+          letter-spacing: 0.03em;
+          line-height: 33.6px;
+        }
+      }
+    }
+  }
+}

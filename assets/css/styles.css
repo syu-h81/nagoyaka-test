@@ -737,6 +737,218 @@ img {
   letter-spacing: 0.1em;
 }
 
+.p-about-concept__inner {
+  max-width: 1160px;
+}
+.p-about-concept-body {
+  display: flex;
+  justify-content: space-between;
+}
+.p-about-concept-body__heading__text {
+  line-height: 33.6px;
+  margin-top: 35px;
+}
+.p-about-concept-body__heading__text__block {
+  justify-content: flex-start;
+}
+.p-about-concept-body__heading h2 {
+  text-align: justify;
+}
+.p-about-concept-radius__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 60px;
+}
+.p-about-concept-radius__img {
+  width: 170px;
+  height: 170px;
+  background-color: #DFEDD0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-about-concept-radius__img img {
+  width: auto;
+}
+.p-about-concept-radius__text {
+  font-size: 0.75em;
+  font-weight: bold;
+  line-height: 21px;
+  margin-top: 20px;
+  text-align: center;
+}
+.p-about-concept-radius__text span {
+  color: #338751;
+}
+.p-about-concept-supplyment {
+  line-height: 33.6px;
+  margin-top: 70px;
+}
+.p-about-concept-btn {
+  width: 215px;
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.p-about-concept-btn:first-child {
+  background-color: #FFFFFF;
+  border: 2px solid #E37940;
+  color: #E37940;
+}
+.p-about-concept-btn:last-child {
+  background-color: #E37940;
+  color: #FFFFFF;
+}
+.p-about-concept-btn__text {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.p-about-concept-btn__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 70px;
+}
+.p-about-head {
+  padding: 0 50px;
+  padding-top: 150px;
+}
+.p-about-point__inner {
+  padding-top: 150px;
+}
+.p-about-point-section {
+  background-color: #DFEDD0;
+  border-radius: 20px;
+  padding: 35px;
+  position: relative;
+}
+.p-about-point-section__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  row-gap: 60px;
+  padding-top: 120px;
+}
+.p-about-point-section__glasses__img {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+.p-about-point-section__img {
+  border-radius: 20px;
+}
+.p-about-point-section__heading {
+  margin-top: 35px;
+  text-align: center;
+}
+.p-about-point-section__text {
+  font-weight: bold;
+  line-height: 33.6px;
+  margin-top: 35px;
+}
+.p-about-doctor__inner {
+  padding: 65px 50px 50px 50px;
+}
+.p-about-doctor__block {
+  background-color: #F5F4EA;
+  border-radius: 20px;
+  padding: 50px;
+}
+.p-about-doctor__heading__desc {
+  font-weight: bold;
+  line-height: 33.6px;
+  text-align: center;
+  margin-top: 35px;
+}
+.p-about-doctor-profile {
+  padding-top: 70px;
+}
+.p-about-doctor-profile__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.p-about-doctor-profile__explain__heading span {
+  color: #338751;
+  font-size: 0.75em;
+  letter-spacing: 0.03em;
+}
+.p-about-doctor-profile__explain__heading h3 {
+  margin-top: 20px;
+}
+.p-about-doctor-profile__explain__heading__text {
+  letter-spacing: 0.03em;
+  line-height: 33.6px;
+  margin-top: 35px;
+}
+.p-about-doctor-profile__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 54px;
+}
+.p-about-doctor-profile__career {
+  padding-top: 54px;
+}
+.p-about-doctor-profile__career__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.p-about-doctor-profile__career__list {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  padding: 35px;
+  position: relative;
+}
+.p-about-doctor-profile__career__list::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 35%;
+  background-image: url(../images/clip.png);
+  background-size: cover;
+  width: 130px;
+  height: 47px;
+}
+.p-about-doctor-profile__career__list__inner {
+  background-color: #DFEDD0;
+  border-radius: 20px;
+  padding: 35px;
+}
+.p-about-doctor-profile__career__list__heading {
+  color: #338751;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.p-about-doctor-profile__career__list__name {
+  width: 366px;
+  border-bottom: 1px dashed #DFEDD0;
+  font-size: 0.875em;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.p-about-doctor-profile__career__list__name:nth-child(7), .p-about-doctor-profile__career__list__name:nth-child(9), .p-about-doctor-profile__career__list__name:last-child {
+  margin-top: 35px;
+}
+.p-about-doctor-profile__career__list__subList__name {
+  border-top: 1px dashed #DFEDD0;
+  font-weight: normal;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+.p-about-doctor-profile__career__text {
+  letter-spacing: 0.03em;
+  line-height: 33.6px;
+}
+
 .p-treatment-symptoms__inner {
   max-width: 1160px;
 }
