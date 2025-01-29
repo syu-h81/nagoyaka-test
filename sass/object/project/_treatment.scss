@@ -1,0 +1,95 @@
+@use "../../global" as g;
+
+.p-treatment {
+  &-symptoms {
+    &__inner {
+      max-width: 1160px;
+    }
+    &__block {
+      text-align: center;
+    }
+    &__radius {
+      &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 35px;
+      }
+      &__img {
+        width: 102px;
+        height: 102px;
+        background-color: g.$color-heading;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        img {
+          width: auto;
+        }
+      }
+      &__desc {
+        font-weight: bold;
+        margin-top: 20px;
+      }
+    }
+    &-indication {
+      &__block {
+        background-color: g.$color-primary;
+        border-radius: 20px;
+        padding: 50px;
+        margin-top: 70px;
+      }
+      &__heading {
+        text-align: center;
+      }
+      &__list {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        row-gap: 30px;
+        padding-top: 35px;
+      }
+      &__item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        &__name {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &-equipment {
+    padding: 65px 50px;
+    &__block {
+      background-color: g.$white;
+      border-radius: 20px;
+      padding: 50px 90px;
+    }
+    &__heading {
+      &__text {
+        margin-top: 0;
+      }
+    }
+    &__body {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      row-gap: 50px;
+      padding-top: 45px;
+    }
+    &__content {
+      width: 50%;
+      &__flex {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+      }
+      &__text {
+        line-height: 33.6px;
+      }
+    }
+  }
+}
