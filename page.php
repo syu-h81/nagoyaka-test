@@ -19,7 +19,7 @@ get_header();
           <div class="c-page-head__heading__text__img">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
           </div>
-          <p class="c-page-head__heading__text">ABOUT</p>
+          <p class="c-page-head__heading__text">TREATMENT</p>
         </div>
       <?php endif; ?>
       <?php if (is_page('money')): ?>
@@ -27,7 +27,7 @@ get_header();
           <div class="c-page-head__heading__text__img">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
           </div>
-          <p class="c-page-head__heading__text">ABOUT</p>
+          <p class="c-page-head__heading__text">MONEY</p>
         </div>
       <?php endif; ?>
       <?php if (is_page('contact')): ?>
@@ -35,7 +35,7 @@ get_header();
           <div class="c-page-head__heading__text__img">
             <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
           </div>
-          <p class="c-page-head__heading__text">ABOUT</p>
+          <p class="c-page-head__heading__text">CONTACT</p>
         </div>
       <?php endif; ?>
     </div>
