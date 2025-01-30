@@ -29,11 +29,11 @@
         </div>
         <nav class="header-nav">
           <ul class="header-nav__list">
-            <li class="header-nav__item"><a href="<?php home_url(); ?>">トップページ</a></li>
-            <li class="header-nav__item"><a href="<?php home_url('/about'); ?>">当院について</a></li>
-            <li class="header-nav__item"><a href="<?php home_url('/treatment'); ?>">診療内容</a></li>
-            <li class="header-nav__item"><a href="<?php home_url('/money'); ?>">料金案内</a></li>
-            <li class="header-nav__item"><a href="<?php home_url('/contact'); ?>">お問い合わせ</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url(); ?>">トップページ</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/about'); ?>">当院について</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/treatment'); ?>">診療内容</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/money'); ?>">料金案内</a></li>
+            <li class="header-nav__item"><a href="<?php echo home_url('/contact'); ?>">お問い合わせ</a></li>
           </ul>
         </nav>
       </div>
