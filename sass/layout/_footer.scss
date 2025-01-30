@@ -46,11 +46,10 @@
         background-color: g.$white;
         border-radius: 10px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
         padding: 20px;
         &__img {
-          max-width: 40px;
+          max-width: 30px;
           height: auto;
         }
         &__text {

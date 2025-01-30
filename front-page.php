@@ -12,7 +12,7 @@
               </p>
             </div>
             <div class="p-top-hero__body__heading__box">
-              <div class="p-top-hero__body__heading__box_heading">専門医がご自宅までお伺いし</div>
+              <div class="p-top-hero__body__heading__box__heading">専門医がご自宅までお伺いし</div>
               <div class="p-top-hero__body__heading__box__heading">身体と視力の健康を守ります</div>
             </div>
             <div class="p-top-hero__body__heading__desc">
@@ -55,19 +55,32 @@
           </div>
         </div>
         <div class="p-top-hero__img">
-          <img src="" alt="">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/top-hero.png" alt="">
         </div>
       </div>
     </div>
   </section>
+  <div class="c-page-contact">
+    <div class="c-page-contact-inner">
+      <div class="c-page-contact__img">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon-white.png" alt="">
+      </div>
+      <div class="c-page-contact__body">
+        <p>
+          <span class="c-page-contact__body__text">050-8893-2767</span><br>
+          <span class="c-page-contact__body__text">（受付時間：平日 9:00〜18:00）</span>
+        </p>
+      </div>
+    </div>
+  </div>
   <div class="p-top-beginning">
-    <dic class="p-top-beginning l-inner">
+    <dic class="p-top-beginning__inner l-inner">
       <div class="p-top-beginning__block">
         <div class="p-top-beginning__body">
           <div class="p-top-beginning__body__heading">
             <h2 class="p-top-beginning__body__heading__heading c-heading">
-              <span clas="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>
-              ご自宅で<span>「眼科」</span>や<span>「内科」</span>の受診を<br>
+              <span class="u-background-white">なごやか眼科内科訪問診療クリニックは</span><br>
+              ご自宅で<span class="u-color-heading">「眼科」</span>や<span class="u-color-heading">「内科」</span>の受診を<br>
               受けたい方のためのクリニックです。
             </h2>
             <div class="p-top-beginning__body__heading__desc">
@@ -151,7 +164,7 @@
       </div>
     </dic>
   </div>
-  <section class="p-top-point l-setion">
+  <section class="p-top-point l-section">
     <div class="p-top-point__inner l-inner">
       <div class="p-top-point__block">
         <div class="p-top-point__heading c-heading-block">
@@ -161,34 +174,34 @@
             </div>
             <p class="c-page-head__heading__text">POINT</p>
           </div>
-          <h2 class="c-heading">当院の特徴</h2>
+          <h2 class="c-heading">当院は、内科・精神科の診療も可能です。</h2>
           <p class="p-top-point__heading__desc">
             救急車診療台数3000台以上、内科・精神科の訪問診療経験も8年ある医師が<br class="pc-only">
             内科領域もカバー可能です。内科診察が必要な方も、お気軽にお申し付けください。
           </p>
         </div>
-        <div class="p-top-hero__radius__inner">
-          <div class="p-top-hero-radius">
-            <div class="p-top-hero-radius__icon">
+        <div class="p-top-point-radius__inner">
+          <div class="p-top-point-radius">
+            <div class="p-top-point-radius__icon">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/hospital-icon.png" alt="">
             </div>
-            <div class="p-top-hero-radius__text">
+            <div class="p-top-point-radius__text">
               <p>当院について</p>
             </div>
           </div>
-          <div class="p-top-hero-radius">
-            <div class="p-top-hero-radius__icon">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/treatment-icon.png" alt="">
+          <div class="p-top-point-radius">
+            <div class="p-top-point-radius__icon">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/treatment-icon-yellow.png" alt="">
             </div>
-            <div class="p-top-hero-radius__text">
+            <div class="p-top-point-radius__text">
               <p>診療内容</p>
             </div>
           </div>
-          <div class="p-top-hero-radius">
-            <div class="p-top-hero-radius__icon">
+          <div class="p-top-point-radius">
+            <div class="p-top-point-radius__icon">
               <img src="<?php echo get_template_directory_uri()?>/assets/images/money-icon.png" alt="">
             </div>
-            <div class="p-top-hero-radius__text">
+            <div class="p-top-point-radius__text">
               <p>料金案内</p>
             </div>
           </div>
@@ -198,16 +211,16 @@
   </section>
   <section class="p-top-area l-section">
     <div class="p-top-area__inner l-inner">
+      <div class="p-top-area__heading__text c-page-head__heading__text__block">
+        <div class="c-page-head__heading__text__img">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
+        </div>
+        <p class="c-page-head__heading__text">対応エリア</p>
+      </div>
       <div class="p-top-area__block">
         <div class="p-top-area-prefecture__img__inner">
-          <div class="c-page-head__heading__text__block">
-            <div class="c-page-head__heading__text__img">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
-            </div>
-            <p class="c-page-head__heading__text">対応エリア</p>
-          </div>
           <div class="p-top-area-prefecture__img">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/furigana-icon.png" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/prefecture.png" alt="">
           </div>
         </div>
         <div class="p-top-area-info__inner">
@@ -333,8 +346,8 @@
           </div>
           <div class="p-top-area-info__supplyment">
             <p>
-              上記を中心に訪問します。当てはまらない地<br class="sp-only">域でも16km<br class="pc-only">
-              圏内でしたら可能なこともありま<br class="sp-only">すので、お気軽にお問い<br class="pc-only">
+              上記を中心に訪問します。当てはまらない地<br class="u-sp-only">域でも16km<br class="u-pc-only">
+              圏内でしたら可能なこともありま<br class="u-sp-only">すので、お気軽にお問い<br class="u-pc-only">
               合わせください。
             </p>
           </div>
@@ -367,7 +380,7 @@
             </div>
             <div class="p-top-flow__step__body">
               <div class="p-top-flow__step__body__heading">
-                <h3 class="c-sub-heading"></h3>
+                <h3 class="c-sub-heading">無料相談・お申し込み</h3>
               </div>
               <div class="p-top-flow__step__body__text">
                 <p>
@@ -375,7 +388,7 @@
                   電話受付は、平日の9時～17時です。メールの場合は、24時間365日お問い合わせは受け付けています。
                 </p>
               </div>
-              <div class="footer-info-body__phoneNumber c-info-banner__phoneNumber">
+              <div class="p-top-flow__step__body__phoneNumber footer-info-body__phoneNumber c-info-banner__phoneNumber">
                 <div class="footer-info-body__phoneNumber__img c-info-banner__phoneNumber__img">
                   <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon.png" alt="">
                 </div>
@@ -412,12 +425,10 @@
                 <h3 class="c-sub-heading">準備・調整</h3>
               </div>
               <div class="p-top-flow__step__body__text">
-                <p>以下の場合、準備と調整を行います。</p>
-                <p>施設入所中の方は管理者の方と相談の上、内科訪問診療主治医がおられる場合は依頼状を頂き、副主治医として診療に入らせていただきます。</p>
-              </div>
-              <div class="sp-top-flow__step__body__text">
-                <p>・ご入院中の方：退院に向けての調整をサポートし、必要に応じて退院前カンファレンスを開催します。</p>
-                <p>・ご自宅で療養中の方：担当のケアマネージャーや訪問看護師と情報を共有し、訪問診療に向けての調整を進めます。</p>
+                <strong>以下の場合、準備と調整を行います。</strong>
+                <p class="u-pc-only p-top-flow__step__body__text__3">施設入所中の方は管理者の方と相談の上、内科訪問診療主治医がおられる場合は依頼状を頂き、副主治医として診療に入らせていただきます。</p>
+                <p class="u-sp-only">・ご入院中の方：退院に向けての調整をサポートし、必要に応じて退院前カンファレンスを開催します。</p>
+                <p class="u-sp-only">・ご自宅で療養中の方：担当のケアマネージャーや訪問看護師と情報を共有し、訪問診療に向けての調整を進めます。</p>
               </div>
             </div>
           </div>
@@ -469,17 +480,37 @@
       </div>
     </div>
   </section>
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <!-- スライド -->
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-      <div class="swiper-slide"></div>
-    </div>
-  </div>
   <section class="p-top-philosophy">
     <div class="p-top-philosophy__inner l-inner">
+      <div class="swiper p-top-philosophy-swiper">
+        <div class="swiper-wrapper">
+          <!-- スライド -->
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-1.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-2.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-3.png" alt="">
+          </div>
+          <div class="swiper-slide p-slide">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/swiper-4.png" alt="">
+          </div>
+        </div>
+      </div>
       <div class="p-top-philosophy__block">
         <div class="p-top-philosophy__heading c-heading-block">
           <div class="p-top-philosophy__heading__text c-page-head__heading__text__block">
@@ -498,16 +529,16 @@
             <div class="p-top-philosophy__content__body__text">
               <p>
                 目の健康は、暮らしの喜びにつながります。<br>
-                <br><br>
-                視力が最期まで維持されることで、大切な家族の写真を<br class="pc-only">
-                楽しんだり、趣味の時間を過ごしたり、毎日の生活がよ<br class="pc-only">
-                り豊かになります。また、段差や障害物を見つけやすくな<br class="pc-only">
-                り、安全に過ごすことができるでしょう。周りの状況も<br class="pc-only">
-                把握しやすく、施設内の友人との交流も広がっていきま<br class="pc-only">
+                <br>
+                視力が最期まで維持されることで、大切な家族の写真を<br class="u-pc-only">
+                楽しんだり、趣味の時間を過ごしたり、毎日の生活がよ<br class="u-pc-only">
+                り豊かになります。また、段差や障害物を見つけやすくな<br class="u-pc-only">
+                り、安全に過ごすことができるでしょう。周りの状況も<br class="u-pc-only">
+                把握しやすく、施設内の友人との交流も広がっていきま<br class="u-pc-only">
                 す。<br>
-                <br><br>
-                通院が難しくなっても、目の健康は諦めないでくださ<br class="pc-only">
-                い。当院の眼科専門医が、ご自宅での治療をしっかりと<br class="pc-only">
+                <br>
+                通院が難しくなっても、目の健康は諦めないでくださ<br class="u-pc-only">
+                い。当院の眼科専門医が、ご自宅での治療をしっかりと<br class="u-pc-only">
                 サポートいたします。まずはお気軽にご相談ください。
               </p>
             </div>
@@ -519,19 +550,6 @@
       </div>
     </div>
   </section>
-  <div class="c-page-contact">
-    <div class="c-page-contact-inner">
-      <div class="c-page-contact__img">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/phone-icon-white.png" alt="">
-      </div>
-      <div class="c-page-contact__body">
-        <p>
-          <span class="c-page-contact__body__text">050-8893-2767</span><br>
-          <span class="c-page-contact__body__text">（受付時間：平日 9:00〜18:00）</span>
-        </p>
-      </div>
-    </div>
-  </div>
   <section class="c-banner-contact l-setion">
     <div class="c-banner-contact-inner">
       <div class="c-banner-contact-block">

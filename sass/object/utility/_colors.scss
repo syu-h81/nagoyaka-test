@@ -1,0 +1,8 @@
+@use "../../global" as g;
+
+.u-color-heading {
+  color: g.$color-heading;
+}
+.u-background-white {
+  background-color: g.$white;
+}
