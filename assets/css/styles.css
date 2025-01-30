@@ -643,6 +643,9 @@ img {
 }
 
 .c-banner-contact-inner {
+  background-image: url(../images/cta-back.png);
+  background-size: cover;
+  background-position-y: 40px;
   padding: 0 150px;
   padding-top: 150px;
 }
@@ -742,7 +745,7 @@ img {
 }
 .p-about-concept-body {
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
 }
 .p-about-concept-body__heading__text {
   line-height: 33.6px;
@@ -754,10 +757,20 @@ img {
 .p-about-concept-body__heading h2 {
   text-align: justify;
 }
+.p-about-concept-body__img:last-child {
+  width: 60%;
+  position: absolute;
+  left: 75%;
+  bottom: 30px;
+}
+.p-about-concept-body__img__inner {
+  width: 30%;
+  position: relative;
+}
 .p-about-concept-radius__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
   padding-top: 60px;
 }

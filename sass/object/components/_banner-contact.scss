@@ -1,6 +1,9 @@
 @use "../../global" as g;
 .c-banner-contact {
   &-inner {
+    background-image: url(../images/cta-back.png);
+    background-size: cover;
+    background-position-y: 40px;
     padding: 0 150px;
     padding-top: 150px;
   }
