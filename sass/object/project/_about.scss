@@ -7,7 +7,7 @@
     }
     &-body {
       display: flex;
-      justify-content: space-between;
+      gap: 50px;
       &__heading {
         &__text {
           line-height: 33.6px;
@@ -20,12 +20,24 @@
           text-align: justify;
         }
       }
+      &__img {
+        &:last-child {
+          width: 60%;
+          position: absolute;
+          left: 75%;
+          bottom: 30px;
+        }
+        &__inner {
+          width: 30%;
+          position: relative;
+        }
+      }
     }
     &-radius {
       &__inner {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         gap: 30px;
         padding-top: 60px;
       }
