@@ -28,10 +28,10 @@ include get_template_directory() . '/page.php';
           </div>
           <div class="p-about-concept-body__img__inner">
             <div class="p-about-concept-body__img">
-              <img src="" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/about-concept-img1.png" alt="">
             </div>
             <div class="p-about-concept-body__img">
-              <img src="" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/about-concept-img2.png" alt="">
             </div>
           </div>
         </div>
