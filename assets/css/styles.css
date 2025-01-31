@@ -1454,6 +1454,9 @@ img {
   line-height: 33.6px;
 }
 
+.p-money {
+  margin-top: 0;
+}
 .p-money__inner {
   padding: 65px 140px 100px 140px;
 }

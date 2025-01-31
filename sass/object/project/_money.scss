@@ -1,6 +1,7 @@
 @use "../../global" as g;
 
 .p-money {
+  margin-top: 0;
   &__inner {
     padding: 65px 140px 100px 140px;
   }
