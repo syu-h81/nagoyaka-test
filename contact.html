@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>当院について</title>
+  <!-- OGP -->
+  <meta property="og:url" content="<?php echo get_permalink(); ?>"> <!-- //ページのURLを設定 -->
+  <meta property="og:title" content="<?php echo esc_attr(get_the_title()); ?>"> <!-- ページのタイトル -->
+  <meta property="og:description" content="<?php echo esc_attr(get_the_excerpt()); ?>"> <!-- ページのディスクリプション -->
+  <meta property="og:site_name" content="<?php echo esc_attr(get_bloginfo('name')); ?>"> <!-- サイトの名前 -->
+  <meta property="og:image" content="<?php echo esc_url(get_the_post_thumbnail_url(null, 'large')); ?>"> <!-- OGP画像 -->
+  <meta property="og:locale" content="ja_JP"> <!-- ページの国コード -->
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="l-body">
+  <div class="l-wrapper">
+    <!-- ===== header ===== -->
+    <header class="header">
+      <div class="header-inner l-inner">
+        <div class="header-logo">
+          <img src="assets/images/header-logo.png" alt="">
+        </div>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item"><a href="index.html">トップページ</a></li>
+            <li class="header-nav__item"><a href="about.html">当院について</a></li>
+            <li class="header-nav__item"><a href="treatment.html">診療内容</a></li>
+            <li class="header-nav__item"><a href="money.html">料金案内</a></li>
+            <li class="header-nav__item"><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <style>
+      .footer {
+        padding-top: 0px!important;
+      }
+    </style>
+    <main class="p-contact-main l-main">
+      <div class="p-contact-body">
+        <div class="p-contact-body-inner l-inner">
+          <div class="p-contact-body__heading">
+            <h3>訪問診療のご相談はお電話にて承っております。</h3>
+          </div>
+          <div class="p-contact-body__phoneNumber">
+            <div class="p-contact-body__phoneNumber__img">
+              <img src="assets/images/phone-icon.png" alt="">
+            </div>
+            <div class="p-contact-body__phoneNumber__text">
+              <p>お問い合わせ先：<span>050-8893-2767</span></p>
+              <p>(平日 9:00〜18：00)</p>
+            </div>
+          </div>
+          <div class="p-contact-body__content">
+            <div class="p-contact-body__content__img">
+              <img src="assets/images/contact-body.png" alt="">
+            </div>
+            <div class="p-contact-body__content__textBox">
+              <div class="p-contact-body__content__textBox__heading">事前にお知らせいただきたい情報</div>
+              <p>
+                ①現在の生活状況<br>
+                ②お名前、生年月日、住所、連絡先<br>
+                ③現在の病気に関する情報（病名や状態、使用している医療機器など）<br>
+                ④通院している医療機関の情報
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="p-contact l-section">
+        <div class="p-contact__inner l-inner">
+          <div class="p-contact__bubble">
+            <p>メールでもお問い合わせを承ります。</p>
+          </div>
+          <div class="p-contact__heading c-heading-block">
+            <div class="c-page-head__heading__text__block">
+              <div class="c-page-head__heading__text__img">
+                <img src="assets/images/furigana-icon.png" alt="">
+              </div>
+              <p class="c-page-head__heading__text">CONTACT</p>
+            </div>
+            <h2 class="c-heading">お問い合わせ</h2>
+            <p class="p-contact__heading__desc">下記フォームに必要事項をご記入の上、「確認画面へ」「送信する」ボタンをクリックしてください。</p>
+          </div>
+          <div class="p-contact-form">
+            <form class="p-contact-form__form">
+              <!-- ===== お名前（担当者名）===== -->
+              <div class="p-contact-form__form__body">
+                <div class="p-contact-form__form__body__label">
+                  <label for="">お名前（担当者名）</label>
+                  <div class="c-required">
+                    <span class="c-required-text">必須</span>
+                  </div>
+                </div>
+                <div class="p-contact-form__form__body__input">
+                  <input type="text">
+                  <span>例）山田　太郎</span>
+                </div>
+              </div>
+              <!-- ===== 施設名 ===== -->
+              <div class="p-contact-form__form__body">
+                <div class="p-contact-form__form__body__label">
+                  <label for="">施設名</label>
+                  <div class="c-option">
+                    <span class="c-option-text">任意</span>
+                  </div>
+                </div>
+                <div class="p-contact-form__form__body__input">
+                  <input type="text">
+                  <span>例） なごやかデイサービス</span>
+                </div>
+              </div>
+              <!-- ===== 住所 ===== -->
+              <div class="p-contact-form__form__body">
+                <div class="p-contact-form__form__body__label">
+                  <label for="">住所</label>
+                  <div class="c-required">
+                    <span class="c-required-text">必須</span>
+                  </div>
+                </div>
+                <div class="p-contact-form__form__body__input">
+                  <input type="text">
+                  <span>例） 愛知県名古屋市中区錦2-7-7</span>
+                </div>
+              </div>
+              <!-- ===== 電話番号 ===== -->
+              <div class="p-contact-form__form__body">
+                <div class="p-contact-form__form__body__label">
+                  <label for="">電話番号</label>
+                  <div class="c-required">
+                    <span class="c-required-text">必須</span>
+                  </div>
+                </div>
+                <div class="p-contact-form__form__body__input">
+                  <input type="text">
+                  <span>例） 09012345678</span>
+                </div>
+              </div>
+              <!-- ===== メールアドレス ===== -->
+              <div class="p-contact-form__form__body">
+                <div class="p-contact-form__form__body__label">
+                  <label for="">メールアドレス</label>
+                  <div class="c-required">
+                    <span class="c-required-text">必須</span>
+                  </div>
+                </div>
+                <div class="p-contact-form__form__body__input">
+                  <input type="text">
+                  <span>例）example@example.jp</span>
+                </div>
+              </div>
+              <!-- ===== お問い合わせ・相談内容 ===== -->
+              <div class="p-contact-form__form__body u-border-bottom">
+                <div class="p-contact-form__form__body__label">
+                  <label for="">お問い合わせ・相談内容</label>
+                  <div class="c-option">
+                    <span class="c-option-text">任意</span>
+                  </div>
+                </div>
+                <div class="p-contact-form__form__body__input">
+                  <textarea name="" id=""></textarea>
+                </div>
+              </div>
+              <div class="p-contact-form__form__body__submit">
+                <button type="submit" class="p-contact-form__form__body__submit__btn">内容を確認</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===== footer ===== -->
+    <footer class="footer p-contact-footer">
+      <div class="footer-inner l-inner">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="index.html">トップページ</a></li>
+            <span>｜</span>
+            <li class="footer-nav__item"><a href="about.html">当院について</a></li>
+            <span>｜</span>
+            <li class="footer-nav__item"><a href="treatment.html">診療内容</a></li>
+            <span>｜</span>
+            <li class="footer-nav__item"><a href="money.html">料金案内</a></li>
+          </ul>
+        </nav>
+        <div class="footer-info__inner">
+          <div class="footer-info-logo">
+            <img src="assets/images/footer-logo.png" alt="">
+            <div class="footer-info-logo__address">
+              <p>〒460-0003 <br>愛知県名古屋市中区錦2-7-7P.T名古屋錦1302</p>
+            </div>
+          </div>
+          <div class="footer-info-body">
+            <div class="footer-info-body__phoneNumber">
+              <div class="footer-info-body__phoneNumber__img">
+                <img src="assets/images/phone-icon.png" alt="">
+              </div>
+              <div class="footer-info-body__phoneNumber__text">
+                <p>お問い合わせ先：<span>050-8893-2767</span>　(平日 9:00〜18：00)</p>
+                <p>（直接医師に繋がりますので、詳しく聞くことができます）</p>
+              </div>
+            </div>
+            <a href="" class="footer-info-body__email c-email-btn">
+              <div class="footer-info-body__email__img c-email-btn-img">
+                <img src="assets/images/email-icon.png" alt="">
+              </div>
+              <p class="c-email-btn-text">メールで問い合わせ</p>
+            </a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <small>なごやか眼科内科訪問診療クリニック</small>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

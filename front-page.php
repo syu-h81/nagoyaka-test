@@ -1,4 +1,3 @@
-<?php get_header(); ?>
 <main class="p-top-main l-main">
   <section class="p-top-hero l-section">
     <div class="p-top-hero__inner l-inner">
@@ -583,6 +582,3 @@
     </div>
   </section>
 </main>
-
-<?php get_footer(); ?>
-    
